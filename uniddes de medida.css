@@ -1,0 +1,49 @@
+
+
+
+.vo {
+    font-size: 16px;
+}
+
+.pai{
+width: 50vw;
+height: 50vh;
+background: #00ff;
+color:#ffffff;
+font-size: 2em;
+}
+
+.filho {
+
+    height: 50%;
+    width: 50%;
+    background: #ff0000; 
+    color:#ffffff;
+    font-size: 2rem; 
+}
+
+
+
+
+
+/*
+
+Unidades de medida
+usada quando não precisa de adaptação para outras telas!!
+1 polegada= 2,54cm
+Px>>(pixel)
+in>> (inches/polegadas)
+cm/mm>> (centimetros/milimetros)
+
+
+-> Relativas
+Se "adaptar" a qualquer tela ou aparelho que for aberta!
+Calcula o tamanho relativo ao elemento pai
+vw (view edit) lvw- é 1% da largura da janela do navegador
+vh (view height) 1vh -é 1%da altura do navegador 
+EM - é uma unidade relativa ao elemento pai
+rem - é uma unidade relativa ao elemento raiz 
+
+
+
+*/
